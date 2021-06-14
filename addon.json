@@ -10,7 +10,7 @@
 		".git*",
 		"LICENSE",
 		"*.md",
-		"icon.png"
+		"icon.jpg"
 	]
 }
 
