@@ -229,7 +229,7 @@ function component:HUDPaint()
 	local w = galactic.theme.rem * 29
 	local h = galactic.theme.rem * 15
 	local x = galactic.theme.rem
-	local y = ScrH() - h - galactic.theme.rem * 9
+	local y = ScrH() - h - galactic.theme.rem * 11.5
 
 	if galactic.BottomLeftHeight then
 		y = ScrH() - h - galactic.BottomLeftHeight - galactic.theme.rem
