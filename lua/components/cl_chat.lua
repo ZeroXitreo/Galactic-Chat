@@ -41,7 +41,7 @@ function component:Constructor()
 	end
 	
 	function chat.GetChatBoxPos()
-		PrintTable(baseclass.Get(self))
+		//PrintTable(baseclass.Get(self))
 		return self.container:GetPos()
 	end
 
@@ -148,7 +148,7 @@ function component:Initialize()
 			self:CloseChatbox()
 		elseif code == KEY_TAB then
 			pnl:SetText(hook.Run("OnChatTab", pnl:GetText()))
-			print(string.len(pnl:GetText()))
+			//print(string.len(pnl:GetText()))
 			pnl:SetCaretPos(string.len(pnl:GetText()))
 			return true
 		end
