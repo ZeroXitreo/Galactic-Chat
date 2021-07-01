@@ -148,7 +148,6 @@ function component:Initialize()
 			self:CloseChatbox()
 		elseif code == KEY_TAB then
 			pnl:SetText(hook.Run("OnChatTab", pnl:GetText()))
-			//print(string.len(pnl:GetText()))
 			pnl:SetCaretPos(string.len(pnl:GetText()))
 			return true
 		end
