@@ -29,8 +29,9 @@ component.chatQuotes = {
 }
 
 function component:Constructor()
-	/*function galactic.registry.Player:IsTyping()
-	end*/
+	-- local PLAYER = FindMetaTable("Player")
+	-- function PLAYER:IsTyping()
+	-- end
 
 	if LocalPlayer():IsValid() then
 		self:Initialize()
